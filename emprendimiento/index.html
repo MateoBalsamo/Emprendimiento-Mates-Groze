@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/">
     <title>Groze</title>
 </head>
 <body>
-    
+  
+  
 <h1> GROZE</h1>
 
 
@@ -37,15 +39,33 @@
 
 </header>
 
+
+
+
+
+
+
+
 <main>
-    <div class="gallery"> 
+
+
+  <div class="gallery">
+    
+     
         
-        <img class="im1" src="imagenes/fotto-mates.jpg" alt="" width="400px" height="400px">
-        <img class="im2" src="imagenes/foto-yerbas.jpg" alt="" width="400px" height="400px">
-        <img class="im3" src="imagenes/foto-bombilla.jpg" alt="" width="400px" height="400px">
-        <img class="im4" src="imagenes/foto-termo.jpg" alt="" width="400px" height="400px">
+        <img class="im1" src="imagenes/fotto-mates.jpg" alt="" width="300px" height="300px" class=" mx-auto d-block">
+        <img class="im2" src="imagenes/foto-yerbas.jpg" alt="" width="300px" height="300px"   class=" mx-auto d-block">
+        <img class="im3" src="imagenes/foto-bombilla.jpg" alt="" width="300px" height="300px"  class=" mx-auto d-block">
+        <img class="im4" src="imagenes/foto-termo.jpg" alt="" width="300px" height="300px"  class=" mx-auto d-block">
     </div>
- 
+  </div>
+
+
+
+
+
+
+
     <div>
       <p class="parrafo"> Nosotros somos Groze, una pagina que te puede brindar los mates y todos sus complementos de primera calidad
          , lo que vos imagines lo tenemos y si no lo tenemos 
@@ -56,13 +76,13 @@
 
 
 
-<footer >
+<footer>
 
-    <ul id="foot"> 
-       <li>Contactanos: Grozemates@gmail.com</li>  
-       <li>Ubicacion Sinclair 2769,Palermo,Caba.</li>  
-       <li>Redes: @Grozemates</li>
-    </ul>
+  <div id="foote">
+     <li>Contactanos: Grozemates@gmail.com</li>  
+     <li>Ubicacion Sinclair 2769,Palermo,Caba.</li>  
+     <li>Redes: @Grozemates</li>
+  </div>
 
 </footer>
 
@@ -76,9 +96,24 @@
 
 
 
+<div class="form">
+  <form action="/action_page.php">
+    <label for="fname">Nombre</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+    <label for="lname">Apellido</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-
+    <label for="country">Pais</label>
+    <select id="country" name="country">
+      <option value="australia">Argentina</option>
+      <option value="canada">Chile</option>
+      <option value="usa">Uruguay</option>
+    </select>
+  
+    <input type="submit" value="Enviar">
+  </form>
+</div>
 
 
 
