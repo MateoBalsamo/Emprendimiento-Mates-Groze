@@ -1,22 +1,84 @@
-@import 'headers.scss';
+/*variables*/
+$font-principal: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$font-st: italic;
+
+
+
+
+
+
+@import 'header.scss';
 @import 'footer.scss';
 @import 'mates.scss';
 @import 'termos.scss';
 @import 'yerbas.scss';
 @import 'bombillas.scss';
+@import 'sass.scss';
 
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
 
+li {
+  text-align: center;
+}
 
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}/*# sourceMappingURL=header.css.map */
 
 
 
 h1{
 
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $font-principal;
     font-weight: 100;
-    font-style: italic;
+    font-style: $font-st;
     text-align: center;
     
   }
@@ -40,9 +102,9 @@ h1{
   .parrafo {
     padding: 20rem 0;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $font-principal;
     font-weight: bold;
-    font-style: italic;
+    font-style: $font-st;
     height: fit-content;
   }
   
@@ -50,9 +112,9 @@ h1{
   
 #foot{
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $font-principal;
     font-weight: bold;
-    font-style: italic;
+    font-style: $font-st;
     text-align: center;  
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
@@ -74,27 +136,27 @@ h1{
 
 
 .im1{
-  width: 250px;
-    height: 250px;
+  width: 300px;
+    height: 300px;
 }
   
  .im2{
 
-  width: 250px;
-    height: 250px;
+  width: 300px;
+    height: 300px;
  }   
     
 
 .im3{
 
-  width: 250px;
-    height: 250px;
+  width: 300px;
+    height: 300px;
 }
 
 .im4{
 
-  width: 250px;
-    height: 150px;
+  width: 300px;
+    height: 300px;
 }
 
 

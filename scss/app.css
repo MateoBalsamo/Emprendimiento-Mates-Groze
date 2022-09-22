@@ -1,3 +1,4 @@
+/*variables*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -130,21 +131,68 @@ div.gallery {
   margin: 2px; }
 
 .im1 {
-  width: 250px;
-  height: 250px; }
+  width: 130px;
+  height: 130px; }
 
 .im2 {
-  width: 250px;
-  height: 250px; }
+  width: 130px;
+  height: 130px; }
 
 .im3 {
-  width: 250px;
-  height: 250px; }
+  width: 130px;
+  height: 130px; }
 
 .im4 {
-  width: 250px;
-  height: 250px; }
+  width: 130px;
+  height: 130px; }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr; }
+
+li {
+  text-align: center; }
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black; }
+
+li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/*# sourceMappingURL=header.css.map */
 h1 {
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -167,8 +215,371 @@ div.gallery {
   font-style: italic;
   height: fit-content; }
 
-#foot {
+.foot {
+  padding: 150px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  margin: 2px; }
+
+.im1 {
+  width: 130px;
+  height: 130px; }
+
+.im2 {
+  width: 130px;
+  height: 130px; }
+
+.im3 {
+  width: 130px;
+  height: 130px; }
+
+.im4 {
+  width: 130px;
+  height: 130px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr; }
+
+li {
+  text-align: center; }
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black; }
+
+li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/*# sourceMappingURL=header.css.map */
+h1 {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center; }
+
+div.gallery {
+  display: grid;
+  grid-template-columns: 10fr 9fr;
+  grid-row-gap: 4rem;
+  margin: 9rem;
+  justify-items: center; }
+
+.parrafo {
+  padding: 20rem 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  height: fit-content; }
+
+.foot {
+  padding: 150px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  margin: 2px; }
+
+.im1 {
+  width: 130px;
+  height: 130px; }
+
+.im2 {
+  width: 130px;
+  height: 130px; }
+
+.im3 {
+  width: 130px;
+  height: 130px; }
+
+.im4 {
+  width: 130px;
+  height: 130px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr; }
+
+li {
+  text-align: center; }
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black; }
+
+li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/*# sourceMappingURL=header.css.map */
+h1 {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center; }
+
+div.gallery {
+  display: grid;
+  grid-template-columns: 10fr 9fr;
+  grid-row-gap: 4rem;
+  margin: 9rem;
+  justify-items: center; }
+
+.parrafo {
+  padding: 20rem 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  height: fit-content; }
+
+.foot {
+  padding: 150px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  margin: 2px; }
+
+.im1 {
+    width:300px;
+    height: 300px; 
+}
+
+.im2 {
+  width: 300px;
+  height: 300px; }
+
+.im3 {
+  width: 300px;
+  height: 300px; }
+
+.im4 {
+  width: 300px;
+  height: 300px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr; }
+
+li {
+  text-align: center; }
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black; }
+
+li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  /*# sourceMappingURL=header.css.map */ }
+  .dropdown-content a .dropdown-content a:hover {
+    background-color: #f1f1f1; }
+  .dropdown-content a .dropdown:hover .dropdown-content {
+    display: block; }
+  .dropdown-content a h1 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center; }
+  .dropdown-content a div.gallery {
+    display: grid;
+    grid-template-columns: 10fr 9fr;
+    grid-row-gap: 4rem;
+    margin: 9rem;
+    justify-items: center; }
+  .dropdown-content a .parrafo {
+    padding: 20rem 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    height: fit-content; }
+  .dropdown-content a .foot {
+    padding: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    margin: 2px; }
+  .dropdown-content a .im1 {
+    width: 250px;
+    height: 250px; }
+  .dropdown-content a .im2 {
+    width: 250px;
+    height: 250px; }
+  .dropdown-content a .im3 {
+    width: 250px;
+    height: 250px; }
+  .dropdown-content a .im4 {
+    width: 250px;
+    height: 250px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr; }
+
+li {
+  text-align: center; }
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black; }
+
+li.dropdown {
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center; }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/*# sourceMappingURL=header.css.map */
+h1 {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center; }
+
+div.gallery {
+  display: grid;
+  grid-template-columns: 10fr 9fr;
+  grid-row-gap: 4rem;
+  margin: 9rem;
+  justify-items: center; }
+
+.parrafo {
+  padding: 20rem 0;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  height: fit-content; }
+
+#foot {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-style: italic;
   text-align: center;
@@ -183,14 +594,14 @@ div.gallery {
     margin: 9rem;
     justify-items: center; }
   .im1 {
-    width: 250px;
-    height: 250px; }
+    width: 300px;
+    height: 300px; }
   .im2 {
-    width: 250px;
-    height: 250px; }
+    width: 300px;
+    height: 300px; }
   .im3 {
-    width: 250px;
-    height: 250px; }
+    width: 300px;
+    height: 300px; }
   .im4 {
-    width: 130px;
-    height: 150px; } }
+    width: 300px;
+    height: 300px; } }
